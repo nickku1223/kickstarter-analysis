@@ -7,6 +7,7 @@
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
+![Outcomes Based on Launch Date] !(Theater_Outcomes_vs_Launch.png)
 
 First, I use the dataset to create an pivot table, so I can better filter out the data for the purpose of this analysis. We want to see the relation between the outcomes and launch dates, so I put the outcomes to the columns field, data created conversion to the rows field, and removed the quarters and years that was automatically generated so I have months for rows. And outcomes to the values field, and put years and parent category to the filter field. Because we want to see the theater category we choose theater in the parent category filter, and filter the column labels only for successful, failed, and canceled.
 
