@@ -18,7 +18,7 @@ Based on the data generated, I created a line chart for us to see the trend. Wit
 ![Outcomes Based on Goals](Outcomes_vs_Goals.png)
 First, I created a new worksheet and give the proper headers in columns and different range of goals in rows, next I used the COUNTIFS function to help me find out the numbers for the successful, failed, and canceled campaigns, also to narrow it down to the "plays" subcategory, for the Number Successful where goal is less than $1,000, I used the following formula: 
 
-=COUNTIFS(Kickstarters!D:D, "<1000", Kickstarters!F:F, "successful", Kickstarters!R:R, "plays") 
+<sub> =COUNTIFS(Kickstarters!D:D, "<1000", Kickstarters!F:F, "successful", Kickstarters!R:R, "plays") </sub>
 
 and get the result of 141, and applied the formula with some changes in order to find the Number Failed, Number Canceled.
 
